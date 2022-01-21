@@ -61,6 +61,8 @@
     - can't use these keywords as variables/classnames/methods..
     - reserved words not to be used for any other purpose
     - boolean, byte, class, float, if...
+    - final -> similar to const. Once you assign it's value it can't be changed. i.e. `private static final String INVALID_VALUE_MESSAGE = "Invalid value";`
+      - convention is to type these in upper snake case like shown above
   - naming conventions:
     - use lower camel case for variable names
 
@@ -127,3 +129,10 @@ methods:
 diffmerge tool:
 
 - visually compare and merge files on any os
+
+method overloading:
+
+- same method name with different parameters
+- create unique method signatures for each.. differing params.. just changing the return type doesn't change the overall signature -> must change params
+- can call methods from methods even with same name/overloaded
+- run a specific version of that method..
