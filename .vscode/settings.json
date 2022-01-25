@@ -1,3 +1,7 @@
 {
-  "java.project.sourcePaths": ["Section3FirstSteps", "Section4Tutorials"]
+  "java.project.sourcePaths": [
+    "Section4Tutorials",
+    "Section3FirstSteps",
+    "Section5ControlFlowStatements"
+  ]
 }

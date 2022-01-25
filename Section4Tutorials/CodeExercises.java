@@ -36,18 +36,18 @@ public class CodeExercises {
 
     // public static boolean isLeapYear(int year) {
     //     if (year < 1 || year > 9999) return false;
-    //     if (year % 4 == 0) {
-    //         if (year % 100 == 0) {
-    //             if (year % 400 == 0) {
-    //                 return true;
-    //             } else {
-    //                 return false;
-    //             }
-    //         } else {
-    //             return true;
-    //         }
-    //     } 
-    //     return false;
+        // if (year % 4 == 0) {
+        //     if (year % 100 == 0) {
+        //         if (year % 400 == 0) {
+        //             return true;
+        //         } else {
+        //             return false;
+        //         }
+        //     } else {
+        //         return true;
+        //     }
+        // } 
+        // return false;
     // }
 
     // public static boolean areEqualByThreeDecimalPlaces(double num1, double num2) {
